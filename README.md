@@ -32,10 +32,10 @@ AOS_Project_2026_NSC/
 ├── config/          # Network configuration
 ├── messaging/       # Message types and serialization
 ├── socket/          # TCP communication
-├── raymond/         # Raymond's algorithm
+├── raymond/         # Raymond's Tree-Based Token Algorithm
 ├── university/      # University node management
 ├── visualization/   # Physical and logical trees
-├── snapshot/        # Distributed snapshot
+├── snapshot/        # Chandy–Lamport Distributed Snapshot Algorithm
 │
 ├── Main.java
 ├── raymond.conf
@@ -51,9 +51,9 @@ The `raymond.conf` file defines the number of universities, root node, initial t
 Sample configuration:
 
 ```text
-5 // total universities that makes up the tree
-0 // root of the tree
-0 // initial token holder of the tree
+5 // Total universities that makes up the tree
+0 // Root of the tree
+0 // Initial token holder of the tree
 CU 5001
 BU 5002
 KU 5003
@@ -84,7 +84,7 @@ The configuration can be modified to change the network topology and initial tok
 ### Step 1: Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone 
 cd AOS_Project_2026_NSC
 ```
 
@@ -175,9 +175,9 @@ Tests performed:
 
 ## 10. Academic Project
 
-**Course:** Advanced Operating Systems (AOS)
+**Course:** Advanced Operating Systems Laboratory (AOS Lab)
 
-**Project:** National Supercomputing Consortium – Distributed Mutual Exclusion System
+**Project:** National Supercomputing Consortium 
 
 **Language:** Java
 
