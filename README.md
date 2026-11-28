@@ -84,7 +84,7 @@ The configuration can be modified to change the network topology and initial tok
 ### Step 1: Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/Sayan944/National_Supercomputing_Consortium_AOS_Project.git
 cd AOS_Project_2026_NSC
 ```
 
